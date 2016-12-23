@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export qtpath=$HOME/Qt/5.7/clang_64
+cd ../bsnes-plus/bsnes
+
+if [ "$1" == "clean" ]; then
+  make clean
+else
+  make build -j4 profile=compatibility $1
+fi
