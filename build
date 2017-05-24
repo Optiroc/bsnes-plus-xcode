@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export qtpath=$HOME/Qt/5.7/clang_64
+export qtpath=$HOME/Qt/5.8/clang_64
 cd ../bsnes-plus/bsnes
 
 if [ "$1" == "clean" ]; then

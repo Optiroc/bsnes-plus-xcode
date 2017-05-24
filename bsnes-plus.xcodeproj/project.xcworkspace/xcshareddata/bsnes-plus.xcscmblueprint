@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "383DF34412D9560D17F8E19856AC37A8CFEFA31C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "383DF34412D9560D17F8E19856AC37A8CFEFA31C" : 9223372036854775807,
+    "7E56338D4CD29DABE642C209069B554CFA1E1FBC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C0B58BE7-5401-49FD-9229-2B5B29B05843",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "383DF34412D9560D17F8E19856AC37A8CFEFA31C" : "bsnes-plus-xcode\/",
+    "7E56338D4CD29DABE642C209069B554CFA1E1FBC" : "bsnes-plus\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "bsnes-plus",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "bsnes-plus.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Optiroc\/bsnes-plus-xcode.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "383DF34412D9560D17F8E19856AC37A8CFEFA31C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Optiroc\/bsnes-plus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E56338D4CD29DABE642C209069B554CFA1E1FBC"
+    }
+  ]
+}
