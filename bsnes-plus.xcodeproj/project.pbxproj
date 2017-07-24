@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0804A31F25C7CA008B517F /* userinterface-debugger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A0804A21F25C7CA008B517F /* userinterface-debugger.cpp */; };
 		2A579D9E1EC8D85700198E76 /* QtWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A579D9D1EC8D85700198E76 /* QtWidgets.framework */; };
 		2A579DA01EC8D86700198E76 /* QtOpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A579D9F1EC8D86700198E76 /* QtOpenGL.framework */; };
 		2A579DA21EC8D87100198E76 /* QtGui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A579DA11EC8D87100198E76 /* QtGui.framework */; };
@@ -284,12 +285,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A0804A21F25C7CA008B517F /* userinterface-debugger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "userinterface-debugger.cpp"; sourceTree = "<group>"; };
 		2A08E0C41AF5759C003D554D /* bsnes-plus-xc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bsnes-plus-xc"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A35D03B1AEE7A9E00C9236B /* bsnes+.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = "bsnes+.app"; path = "../bsnes-plus/bsnes+.app"; sourceTree = SOURCE_ROOT; };
-		2A579D9D1EC8D85700198E76 /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = ../../Qt/5.8/clang_64/lib/QtWidgets.framework; sourceTree = "<group>"; };
-		2A579D9F1EC8D86700198E76 /* QtOpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtOpenGL.framework; path = ../../Qt/5.8/clang_64/lib/QtOpenGL.framework; sourceTree = "<group>"; };
-		2A579DA11EC8D87100198E76 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = ../../Qt/5.8/clang_64/lib/QtGui.framework; sourceTree = "<group>"; };
-		2A579DA31EC8D87B00198E76 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = ../../Qt/5.8/clang_64/lib/QtCore.framework; sourceTree = "<group>"; };
+		2A579D9D1EC8D85700198E76 /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = ../../Qt/5.6/clang_64/lib/QtWidgets.framework; sourceTree = "<group>"; };
+		2A579D9F1EC8D86700198E76 /* QtOpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtOpenGL.framework; path = ../../Qt/5.6/clang_64/lib/QtOpenGL.framework; sourceTree = "<group>"; };
+		2A579DA11EC8D87100198E76 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = ../../Qt/5.6/clang_64/lib/QtGui.framework; sourceTree = "<group>"; };
+		2A579DA31EC8D87B00198E76 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = ../../Qt/5.6/clang_64/lib/QtCore.framework; sourceTree = "<group>"; };
 		2A6E34AF1EC5DF10004E05C0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		2A6E34B11EC5DF20004E05C0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		2A6E34B31EC5DF2E004E05C0 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
@@ -899,10 +901,10 @@
 				2A6E34B31EC5DF2E004E05C0 /* Carbon.framework */,
 				2A6E34B11EC5DF20004E05C0 /* IOKit.framework */,
 				2A6E34AF1EC5DF10004E05C0 /* CoreFoundation.framework */,
-				2A579D9D1EC8D85700198E76 /* QtWidgets.framework */,
 				2A579DA31EC8D87B00198E76 /* QtCore.framework */,
-				2A579D9F1EC8D86700198E76 /* QtOpenGL.framework */,
+				2A579D9D1EC8D85700198E76 /* QtWidgets.framework */,
 				2A579DA11EC8D87100198E76 /* QtGui.framework */,
+				2A579D9F1EC8D86700198E76 /* QtOpenGL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2260,6 +2262,7 @@
 				2AFB07AC1E07312500F29BD3 /* controller.hpp */,
 				2AFB07AD1E07312500F29BD3 /* input.cpp */,
 				2AFB07AE1E07312500F29BD3 /* input.hpp */,
+				2A0804A21F25C7CA008B517F /* userinterface-debugger.cpp */,
 				2AFB07AF1E07312500F29BD3 /* userinterface-emulationspeed.cpp */,
 				2AFB07B01E07312500F29BD3 /* userinterface-general.cpp */,
 				2AFB07B11E07312500F29BD3 /* userinterface-states.cpp */,
@@ -2663,6 +2666,7 @@
 				2AFB08D41E07312600F29BD3 /* serialization.cpp in Sources */,
 				2AFB08F91E07312600F29BD3 /* userinterface-emulationspeed.cpp in Sources */,
 				2AFB089D1E07312600F29BD3 /* opcode_rmw.cpp in Sources */,
+				2A0804A31F25C7CA008B517F /* userinterface-debugger.cpp in Sources */,
 				2AFB08A31E07312600F29BD3 /* dma.cpp in Sources */,
 				2AFB08E61E07312600F29BD3 /* config.cpp in Sources */,
 				2AFB07F61E07312500F29BD3 /* launcher.cpp in Sources */,
@@ -2866,7 +2870,7 @@
 				PATH = "";
 				PLATFORM_OSX = 1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				QTPATH = "$(HOME)/Qt/5.8/clang_64";
+				QTPATH = "$(HOME)/Qt/5.9.1/clang_64";
 				Q_MOC_OUTPUT_REVISION = 67;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -2935,7 +2939,7 @@
 				PATH = "";
 				PLATFORM_OSX = 1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				QTPATH = "$(HOME)/Qt/5.8/clang_64";
+				QTPATH = "$(HOME)/Qt/5.9.1/clang_64";
 				Q_MOC_OUTPUT_REVISION = 67;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "";
