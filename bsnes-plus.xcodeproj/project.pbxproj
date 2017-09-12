@@ -2390,6 +2390,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
+		2A02584F1F668F4B008554FF /* bsnes-snestistics */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) DEBUG=$(DEBUG) bsnes_snestistics=1 bsnes_snestistics_trace_params_cpp=\"../../../../SFW-Translation/tools/snestistics/source/trace_log_params.cpp\"";
+			buildConfigurationList = 2A0258501F668F4B008554FF /* Build configuration list for PBXLegacyTarget "bsnes-snestistics" */;
+			buildPhases = (
+			);
+			buildToolPath = "$(SRCROOT)/build";
+			buildWorkingDirectory = "$(SRCROOT)";
+			dependencies = (
+			);
+			name = "bsnes-snestistics";
+			passBuildSettingsInEnvironment = 0;
+			productName = "bsnes-plus";
+		};
 		2A35CD8F1AEE77C300C9236B /* bsnes-plus */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) DEBUG=$(DEBUG)";
@@ -2430,7 +2444,7 @@
 		2A35CD8B1AEE77C300C9236B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = bsnes;
 				TargetAttributes = {
 					2A35CD8F1AEE77C300C9236B = {
@@ -2454,6 +2468,7 @@
 			projectRoot = "";
 			targets = (
 				2A35CD8F1AEE77C300C9236B /* bsnes-plus */,
+				2A02584F1F668F4B008554FF /* bsnes-snestistics */,
 				2ACADCBC1AF257A30001E28A /* bsnes-plus-xc */,
 			);
 		};
@@ -2733,15 +2748,41 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2A0258511F668F4B008554FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG = 1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PATH = $PATH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A0258521F668F4B008554FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PATH = $PATH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		2A35CD901AEE77C300C9236B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2764,12 +2805,18 @@
 		2A35CD911AEE77C300C9236B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2950,6 +2997,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A0258501F668F4B008554FF /* Build configuration list for PBXLegacyTarget "bsnes-snestistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0258511F668F4B008554FF /* Debug */,
+				2A0258521F668F4B008554FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2A35CD8E1AEE77C300C9236B /* Build configuration list for PBXProject "bsnes-plus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
